@@ -2,7 +2,7 @@
 import random
 from typing import List, Dict, Tuple
 
-RANDOM_SEED = 18
+RANDOM_SEED = None
 
 PageRow = Dict[str, int]  # keys: 'Page','Loaded','LastRef','R','M'
 
